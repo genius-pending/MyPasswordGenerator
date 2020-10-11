@@ -30,7 +30,7 @@ nocBox.addEventListener("keyup", function (e) {
 			//password length is not a number
 			
 			nocBox.value = settings.passwordMinLength; //this sets the value back to the min
-			confirm("Please enter a valid number below 8 or above 128.");
+			confirm("Please enter a valid number above 8 or below 128.");
 			
 		break;
 		
